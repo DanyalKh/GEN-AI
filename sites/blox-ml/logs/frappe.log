@@ -1,0 +1,42 @@
+2024-08-29 02:08:39,819 ERROR frappe New Exception collected in error log
+Site: blox-ml
+Form Dict: {'sid': 'af1da919e5eec56d0603635a63c396d8391cab549248d1b46ae8897f', 'doctype': 'Page', 'cmd': 'frappe.realtime.can_subscribe_doctype'}
+2024-08-29 02:09:03,299 ERROR frappe Error while inserting deferred Error Log record: Error Log ofvoponuqf: 'Title' (cannot import name 'TypeAdapter' from 'pydantic' (/home/danyal/ERPNEXT15/frappe-bench/env/lib/python3.11/site-packages/pydantic/__init__.cpython-311-x86_64-linux-gnu.so)) will get truncated, as max characters allowed is 140
+Site: blox-ml
+Form Dict: {}
+2024-08-29 02:09:38,197 ERROR frappe New Exception collected in error log
+Site: blox-ml
+Form Dict: {'sid': 'af1da919e5eec56d0603635a63c396d8391cab549248d1b46ae8897f', 'doctype': 'Page', 'cmd': 'frappe.realtime.can_subscribe_doctype'}
+2024-08-29 02:15:23,451 ERROR frappe Error while inserting deferred Error Log record: Error Log ojmie93cjd: 'Title' (cannot import name 'TypeAdapter' from 'pydantic' (/home/danyal/ERPNEXT15/frappe-bench/env/lib/python3.11/site-packages/pydantic/__init__.cpython-311-x86_64-linux-gnu.so)) will get truncated, as max characters allowed is 140
+Site: blox-ml
+Form Dict: {}
+2024-08-29 02:19:28,794 ERROR frappe New Exception collected in error log
+Site: blox-ml
+Form Dict: {'sid': 'af1da919e5eec56d0603635a63c396d8391cab549248d1b46ae8897f', 'doctype': 'Page', 'cmd': 'frappe.realtime.can_subscribe_doctype'}
+2024-08-29 02:23:08,937 ERROR frappe New Exception collected in error log
+Site: blox-ml
+Form Dict: {'prompt_message': 'hi', 'session_id': 'jn0q_rnWWDEICC3JV845o', 'cmd': 'erpnext_copilot.chat_bot_apis.bot_api_router.get_response_as_per_role'}
+2024-08-29 02:24:39,548 ERROR frappe New Exception collected in error log
+Site: blox-ml
+Form Dict: {'sid': 'af1da919e5eec56d0603635a63c396d8391cab549248d1b46ae8897f', 'doctype': 'Page', 'cmd': 'frappe.realtime.can_subscribe_doctype'}
+2024-08-29 02:24:43,576 ERROR frappe New Exception collected in error log
+Site: blox-ml
+Form Dict: {'sid': 'af1da919e5eec56d0603635a63c396d8391cab549248d1b46ae8897f', 'doctype': 'Page', 'docname': 'dashboard-view', 'cmd': 'frappe.realtime.can_subscribe_doc'}
+2024-08-29 02:24:43,613 ERROR frappe New Exception collected in error log
+Site: blox-ml
+Form Dict: {'sid': 'af1da919e5eec56d0603635a63c396d8391cab549248d1b46ae8897f', 'doctype': 'Page', 'docname': 'dashboard-view', 'cmd': 'frappe.realtime.can_subscribe_doc'}
+2024-08-29 02:30:29,571 ERROR frappe Error while inserting deferred Error Log record: Error Log oshn477h6i: 'Title' (cannot import name 'TypeAdapter' from 'pydantic' (/home/danyal/ERPNEXT15/frappe-bench/env/lib/python3.11/site-packages/pydantic/__init__.cpython-311-x86_64-linux-gnu.so)) will get truncated, as max characters allowed is 140
+Site: blox-ml
+Form Dict: {}
+2024-08-29 02:30:29,578 ERROR frappe Error while inserting deferred Error Log record: Error Log oshnvfpibh: 'Title' (cannot import name 'TypeAdapter' from 'pydantic' (/home/danyal/ERPNEXT15/frappe-bench/env/lib/python3.11/site-packages/pydantic/__init__.cpython-311-x86_64-linux-gnu.so)) will get truncated, as max characters allowed is 140
+Site: blox-ml
+Form Dict: {}
+2024-08-29 02:30:29,592 ERROR frappe Error while inserting deferred Error Log record: Error Log oshns10g0s: 'Title' (cannot import name 'TypeAdapter' from 'pydantic' (/home/danyal/ERPNEXT15/frappe-bench/env/lib/python3.11/site-packages/pydantic/__init__.cpython-311-x86_64-linux-gnu.so)) will get truncated, as max characters allowed is 140
+Site: blox-ml
+Form Dict: {}
+2024-08-29 02:30:29,599 ERROR frappe Error while inserting deferred Error Log record: Error Log oshncrhrvg: 'Title' (cannot import name 'TypeAdapter' from 'pydantic' (/home/danyal/ERPNEXT15/frappe-bench/env/lib/python3.11/site-packages/pydantic/__init__.cpython-311-x86_64-linux-gnu.so)) will get truncated, as max characters allowed is 140
+Site: blox-ml
+Form Dict: {}
+2024-08-29 02:30:29,606 ERROR frappe Error while inserting deferred Error Log record: Error Log oshon9jkg2: 'Title' (cannot import name 'TypeAdapter' from 'pydantic' (/home/danyal/ERPNEXT15/frappe-bench/env/lib/python3.11/site-packages/pydantic/__init__.cpython-311-x86_64-linux-gnu.so)) will get truncated, as max characters allowed is 140
+Site: blox-ml
+Form Dict: {}

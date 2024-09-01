@@ -1,0 +1,4 @@
+frappe
+insights
+erpnext
+erpnext_copilot

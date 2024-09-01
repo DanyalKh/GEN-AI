@@ -1,0 +1,39 @@
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/desk/page/setup_wizard/setup_wizard.py", line 81, in process_setup_stages
+    task.get("fn")(task.get("args"))
+      stages = [{'status': 'Updating global settings', 'fail_msg': 'Failed to update global settings', 'tasks': [{'fn': <function update_global_settings at 0x7f0fa01e47c0>, 'args': {'full_name': 'Danyal', 'email': 'danyal@blox.ae', 'password': 'user123#', 'company_name': 'BLOX', 'company_abbr': 'B', 'fy_start_date': '2024-01-01', 'fy_end_date': '2024-12-31', 'setup_demo': 1}, 'fail_msg': 'Failed to update global settings'}]}, {'status': 'Installing presets', 'fail_msg': 'Failed to install presets', 'tasks': [{'fn': <function stage_fixtures at 0x7f0f9bd03560>, 'args': {'full_name': 'Danyal', 'email': 'danyal@blox.ae', 'password': 'user123#', 'company_name': 'BLOX', 'company_abbr': 'B', 'fy_start_date': '2024-01-01', 'fy_end_date': '2024-12-31', 'setup_demo': 1}, 'fail_msg': 'Failed to install presets'}]}, {'status': 'Setting up company', 'fail_msg': 'Failed to setup company', 'tasks': [{'fn': <function setup_company at 0x7f0f9b47b420>, 'args': {'full_name': 'Danyal', 'email': 'danyal@blox.ae', 'passwo...
+      user_input = {'full_name': 'Danyal', 'email': 'danyal@blox.ae', 'password': '********', 'company_name': 'BLOX', 'company_abbr': 'B', 'fy_start_date': '2024-01-01', 'fy_end_date': '2024-12-31', 'setup_demo': 1}
+      is_background_task = False
+      capture = <function capture at 0x7f0fa21eede0>
+      current_task = {'fn': <function update_global_settings at 0x7f0fa01e47c0>, 'args': {'full_name': 'Danyal', 'email': 'danyal@blox.ae', 'password': 'user123#', 'company_name': 'BLOX', 'company_abbr': 'B', 'fy_start_date': '2024-01-01', 'fy_end_date': '2024-12-31', 'setup_demo': 1}, 'fail_msg': 'Failed to update global settings'}
+      idx = 0
+      stage = {'status': 'Updating global settings', 'fail_msg': 'Failed to update global settings', 'tasks': [{'fn': <function update_global_settings at 0x7f0fa01e47c0>, 'args': {'full_name': 'Danyal', 'email': 'danyal@blox.ae', 'password': 'user123#', 'company_name': 'BLOX', 'company_abbr': 'B', 'fy_start_date': '2024-01-01', 'fy_end_date': '2024-12-31', 'setup_demo': 1}, 'fail_msg': 'Failed to update global settings'}]}
+      task = {'fn': <function update_global_settings at 0x7f0fa01e47c0>, 'args': {'full_name': 'Danyal', 'email': 'danyal@blox.ae', 'password': 'user123#', 'company_name': 'BLOX', 'company_abbr': 'B', 'fy_start_date': '2024-01-01', 'fy_end_date': '2024-12-31', 'setup_demo': 1}, 'fail_msg': 'Failed to update global settings'}
+  File "apps/frappe/frappe/desk/page/setup_wizard/setup_wizard.py", line 110, in update_global_settings
+    update_system_settings(args)
+      args = {'full_name': 'Danyal', 'email': 'danyal@blox.ae', 'password': '********', 'company_name': 'BLOX', 'company_abbr': 'B', 'fy_start_date': '2024-01-01', 'fy_end_date': '2024-12-31', 'setup_demo': 1}
+  File "apps/frappe/frappe/desk/page/setup_wizard/setup_wizard.py", line 189, in update_system_settings
+    system_settings.save()
+      args = {'full_name': 'Danyal', 'email': 'danyal@blox.ae', 'password': '********', 'company_name': 'BLOX', 'company_abbr': 'B', 'fy_start_date': '2024-01-01', 'fy_end_date': '2024-12-31', 'setup_demo': 1}
+      number_format = '#,###.##'
+      system_settings = <SystemSettings: System Settings>
+  File "apps/frappe/frappe/model/document.py", line 337, in save
+    return self._save(*args, **kwargs)
+      self = <SystemSettings: System Settings>
+      args = ()
+      kwargs = {}
+  File "apps/frappe/frappe/model/document.py", line 376, in _save
+    self._validate()
+      self = <SystemSettings: System Settings>
+      ignore_permissions = None
+      ignore_version = None
+  File "apps/frappe/frappe/model/document.py", line 574, in _validate
+    self._validate_mandatory()
+      self = <SystemSettings: System Settings>
+  File "apps/frappe/frappe/model/document.py", line 911, in _validate_mandatory
+    raise frappe.MandatoryError(
+      self = <SystemSettings: System Settings>
+      missing = [('time_zone', 'Error: Value missing for System Settings: Time Zone'), ('date_format', 'Error: Value missing for System Settings: Date Format'), ('time_format', 'Error: Value missing for System Settings: Time Format')]
+      idx = 'time_format'
+      msg = 'Error: Value missing for System Settings: Time Format'
+frappe.exceptions.MandatoryError: [System Settings, System Settings]: time_zone, date_format, time_format{"full_name": "Danyal", "email": "danyal@blox.ae", "password": "user123#", "company_name": "BLOX", "company_abbr": "B", "fy_start_date": "2024-01-01", "fy_end_date": "2024-12-31", "setup_demo": 1}

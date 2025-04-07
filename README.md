@@ -1,2 +1,2 @@
 # GEN-AI
-Integration of Generative AI with open source ERP
+Integration of LLM model with open source ERP
